@@ -1,0 +1,9 @@
+# railway.toml
+
+# Definir la configuración del servicio web
+[[services]]
+  # El nombre del servicio
+  name = "web"
+
+  # Comando para iniciar la aplicación
+  start = "python manage.py runserver 0.0.0.0:$PORT"
